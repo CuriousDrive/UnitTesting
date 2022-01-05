@@ -2,7 +2,7 @@
 {
     public class GradeCalculator
     {
-        public string GetGradeByScore(int percentage)
+        public string GetGradeByPercentage(int percentage)
         {
             if (percentage >= 90 & percentage <= 100)
                 return "A";
